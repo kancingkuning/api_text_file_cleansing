@@ -1,0 +1,16 @@
+tags:
+  - name: File
+get:
+  description: file yang akan diproses
+parameters:
+  - name: file
+    in: formData
+    required: true
+    type: file
+responses:
+    '200':
+      description: Successful operation
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
